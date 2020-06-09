@@ -39,7 +39,7 @@ public class AppTest
             int r = rand.nextInt(2);
             String str;
             if(r==0){
-                str = "Hello World!";
+                str = "Hello Word!";
             }
             else{
                 str = "Hello Word!";
