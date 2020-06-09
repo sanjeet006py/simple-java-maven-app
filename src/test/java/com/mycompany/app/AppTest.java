@@ -36,13 +36,13 @@ public class AppTest
         try {
             java.util.Random rand = new java.util.Random();
             //rand.setSeed(45);
-            int r = rand.nextInt(2);
+            int r = rand.nextInt(100);
             String str;
-            if(r==0){
+            if(r<70){
                 str = "Hello Word!";
             }
             else{
-                str = "Hello Word!";
+                str = "Hello World!";
             }
             assertEquals(str + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
