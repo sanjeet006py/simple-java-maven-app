@@ -35,7 +35,7 @@ public class AppTest
         App.main(null);
         try {
             java.util.Random rand = new java.util.Random();
-            rand.setSeed(45);
+            //rand.setSeed(45);
             int r = rand.nextInt(2);
             String str;
             if(r==0){
