@@ -38,7 +38,7 @@ public class AppTest
             //rand.setSeed(45);
             int r = rand.nextInt(100);
             String str;
-            if(r<60){
+            if(r<0){
                 str = "Hello Word!";
             }
             else{
