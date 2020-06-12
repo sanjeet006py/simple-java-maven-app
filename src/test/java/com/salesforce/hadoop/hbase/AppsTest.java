@@ -19,7 +19,7 @@ public class AppsTest {
     public void testAppsConstructor() {
         try {
             new Apps();
-            //assertEquals(false,true);
+            assertEquals(false,true);
         } catch (Exception e) {
             fail("Construction failed.");
         }
@@ -34,7 +34,7 @@ public class AppsTest {
             //rand.setSeed(45);
             int r = rand.nextInt(100);
             String str;
-            if(r<0){
+            if(r<100){
                 str = "Hello Univers!";
             }
             else{
