@@ -16,7 +16,7 @@ public class AppsTest {
         System.setOut(new PrintStream(outContent));
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void testAppsConstructor() {
         try {
@@ -27,7 +27,7 @@ public class AppsTest {
         }
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void testAppsMain()
     {
