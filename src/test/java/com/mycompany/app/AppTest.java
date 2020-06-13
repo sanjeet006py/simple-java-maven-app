@@ -26,33 +26,33 @@ public class AppTest
     public void testAppConstructor() {
         try {
             new App();
-            //assertEquals(false,true);
+            assertEquals(false,true);
         } catch (Exception e) {
             fail("Construction failed.");
         }
     }
 
-    //@Ignore
-    @Test
-    public void testAppMain()
-    {
-        App.main(null);
-        try {
-            java.util.Random rand = new java.util.Random();
-            //rand.setSeed(45);
-            int r = rand.nextInt(100);
-            String str;
-            if(r<0){
-                str = "Hello Word!";
-            }
-            else{
-                str = "Hello World!";
-            }
-            assertEquals(str + System.getProperty("line.separator"), outContent.toString());
-        } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello World!\"");
-        }
-    }
+//    //@Ignore
+//    @Test
+//    public void testAppMain()
+//    {
+//        App.main(null);
+//        try {
+//            java.util.Random rand = new java.util.Random();
+//            //rand.setSeed(45);
+//            int r = rand.nextInt(100);
+//            String str;
+//            if(r<100){
+//                str = "Hello Word!";
+//            }
+//            else{
+//                str = "Hello World!";
+//            }
+//            assertEquals(str + System.getProperty("line.separator"), outContent.toString());
+//        } catch (AssertionError e) {
+//            fail("\"message\" is not \"Hello World!\"");
+//        }
+//    }
 
     @After
     public void cleanUpStreams() {
