@@ -16,7 +16,7 @@ public class AppsTest {
         System.setOut(new PrintStream(outContent));
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void testAppsConstructor() {
         try {
