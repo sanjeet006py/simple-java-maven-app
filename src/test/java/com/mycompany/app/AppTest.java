@@ -21,7 +21,7 @@ public class AppTest
         System.setOut(new PrintStream(outContent));
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void testAppConstructor() {
         try {
@@ -32,7 +32,7 @@ public class AppTest
         }
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void testAppMain()
     {

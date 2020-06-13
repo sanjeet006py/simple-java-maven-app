@@ -3,6 +3,7 @@ package com.salesforce.hadoop.hbase;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.After;
 import static org.junit.Assert.*;
@@ -15,6 +16,7 @@ public class AppsTest {
         System.setOut(new PrintStream(outContent));
     }
 
+    @Ignore
     @Test
     public void testAppsConstructor() {
         try {
@@ -25,6 +27,7 @@ public class AppsTest {
         }
     }
 
+    @Ignore
     @Test
     public void testAppsMain()
     {
