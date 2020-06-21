@@ -32,7 +32,7 @@ public class AppTest
         }
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void testAppMain()
     {
