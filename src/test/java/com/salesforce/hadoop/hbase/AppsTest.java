@@ -21,7 +21,7 @@ public class AppsTest {
     public void testAppsConstructor() {
         try {
             new Apps();
-            //assertEquals(false,true);
+            assertEquals(false,true);
         } catch (Exception e) {
             fail("Construction failed.");
         }
