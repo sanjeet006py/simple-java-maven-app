@@ -37,7 +37,7 @@ public class AppsTest {
             //rand.setSeed(45);
             int r = rand.nextInt(100);
             String str;
-            if(r<100){
+            if(r<0){
                 str = "Hello Univers!";
             }
             else{
